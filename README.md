@@ -2,7 +2,8 @@
 
 ## Introduction
 Semi-MoE is the first multi-task Mixture-of-Experts framework designed for semi-supervised histopathology image segmentation. This model leverages expert networks to enhance segmentation performance, particularly in scenarios with limited labeled data.
-![image](https://github.com/user-attachments/assets/4f200464-ab85-4459-ac6d-06c1644d5c5d)
+![image](https://github.com/user-attachments/assets/dfa20392-3037-4e8c-84ce-271f6448ac8d)
+ts/4f200464-ab85-4459-ac6d-06c1644d5c5d)
 
 ---
 
