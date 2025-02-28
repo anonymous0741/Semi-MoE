@@ -39,9 +39,9 @@ def create_model(network, in_channels, num_classes, **kwargs):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--path_model', default='/home/mteam/aima/semi-MoE/checkpoints/CRAG/unet-l=0.5-e=200-s=50-g=0.5-b=2-uw=0.5-w=20-35-138/best_MoE_Jc_0.8348.pth')
+    parser.add_argument('-p', '--path_model', default='')
     parser.add_argument('--path_seg_results', default='seg_pred/test')
-    parser.add_argument('--dataset_name', default='CRAG', help='CREMI')
+    parser.add_argument('--dataset_name', default='CRAG', help='GlaS, CRAG')
     parser.add_argument('-b', '--batch_size', default=2, type=int)
     parser.add_argument('-n', '--network', default='unet', type=str)
     parser.add_argument('-gn', '--gating_network', default='multi_gating_attention', type=str)
